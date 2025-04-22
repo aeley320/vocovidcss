@@ -28,6 +28,10 @@ h2 important {
     font-weight: bold !important;
 }
 
+border.rounded.bg-light.text-center.py-3 {
+    background-color: #8eb1c7 !important; 
+}
+
  /* Change background colors for the 3 feature boxes */
 section .row > div:nth-child(1) .p-4 {
     background-color: #094074 !important; /* 'Quick & Easy' */
@@ -75,6 +79,17 @@ section .row > div:nth-child(3) .p-4:hover {
 .btn-primary.d-block:hover {
     background-color: #094074 !important; 
     color: #fefdff !important;
+}
+
+#recorder {
+    background-color: #094074 !important; 
+    color: #fefdff !important; 
+    border: none !important;
+}
+
+#recorder:hover {
+    background-color: #8eb1c7 !important; 
+    color: #094074 !important; 
 }
 
 /*Add a footer*/
