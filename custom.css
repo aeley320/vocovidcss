@@ -81,17 +81,6 @@ section .row > div:nth-child(3) .p-4:hover {
     color: #fefdff !important;
 }
 
-#recordToggle {
-    background-color: #094074 !important; 
-    color: #fefdff !important; 
-    border: none !important;
-}
-
-#recordToggle:hover {
-    background-color: #8eb1c7 !important; 
-    color: #094074 !important; 
-}
-
 /*Add a footer*/
 footer {
     background-color: #094074 !important; /* Dark blue */
