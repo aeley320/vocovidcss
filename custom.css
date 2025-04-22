@@ -44,10 +44,12 @@ section .row > div:nth-child(3) .p-4 {
 .text-center.mt-4 .btn.btn-primary {
     background-color: #ffbc42 !important;
     color: #094074 !important;
+    border: none !important;
 }
 
-/* Style milestone buttons */
+/* Style other buttons */
 .btn-primary.d-block.mb-2 {
     background-color: #fe9000 !important;
-    color: #fefdff !important;
+    color: #094074 !important;
+    border: none !important;
 }
