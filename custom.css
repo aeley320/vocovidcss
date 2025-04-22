@@ -60,7 +60,7 @@ section .row > div:nth-child(3) .p-4:hover {
     animation: tilt-shaking 6s infinite alternate;
 }
 
-.text-center.mt-4 btn.btn-primary:hover {
+.text-center.mt-4 .btn.btn-primary:hover {
     background-color: #094074 !important; 
     color: #fefdff !important;
 }
