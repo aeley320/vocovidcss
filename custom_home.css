@@ -1,7 +1,29 @@
-body {
-   background-color: #f0f0f0 !important;
+/* Theme colors:
+White - #fefdff
+Light blue - #8eb1c7
+Dark blue - #094074
+Yellow - #ffbc42
+Orange - #fe9000
+ */
+
+ /* Change background colors for the 3 feature boxes */
+section .row > div:nth-child(1) .p-4 {
+    background-color: #8eb1c7 !important; /* 'Quick & Easy' */
+    color: #fefdff !important;
 }
 
-h1 {
-    color: red !important;
+section .row > div:nth-child(2) .p-4 {
+    background-color: #094074 !important; /* 'Accurate' */
+    color: #fefdff !important;
+}
+
+section .row > div:nth-child(3) .p-4 {
+    background-color: #fe9000 !important; /* 'Non-Invasive' */
+    color: #fefdff !important;
+}
+
+/* Style the "Get Started" button */
+.text-center.mt-4 .btn.btn-primary {
+    background-color: #ffbc42 !important;
+    color: #094074 !important;
 }
