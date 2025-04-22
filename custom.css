@@ -54,7 +54,12 @@ section .row > div:nth-child(3) .p-4 {
         background-color: #094074 !important; 
         color: #fefdff !important;
     }
-    animation: shake 1s infinite alternate;
+    animation: tilt-shaking 1s infinite alternate;
+}
+
+.text-center.mt-4 btn.btn-primary:hover {
+    background-color: #094074 !important; 
+    color: #fefdff !important;
 }
 
 /* Style milestone buttons */
@@ -62,11 +67,11 @@ section .row > div:nth-child(3) .p-4 {
     background-color: #fe9000 !important;
     color: #094074 !important;
     border: none !important;
-    hover {
-        background-color: #094074 !important; 
-        color: #fefdff !important;
-    }
-    transition: background-color 0.3s ease;
+}
+
+.btn-primary.d-block:hover {
+    background-color: #094074 !important; 
+    color: #fefdff !important;
 }
 
 /*Add a footer*/
@@ -76,3 +81,12 @@ footer {
     padding: 20px 0;
     text-align: center;
 }
+
+@keyframes tilt-shaking {
+    0% { transform: rotate(0deg); }
+    2% { transform: rotate(5deg); }
+    4% { transform: rotate(0eg); }
+    6% { transform: rotate(-5deg); }
+    8% { transform: rotate(0deg); }
+    100% { transform: translateX(0); }
+  }
