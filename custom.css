@@ -49,14 +49,23 @@ section .row > div:nth-child(3) .p-4 {
     background-color: #ffbc42 !important;
     color: #094074 !important;
     border: none !important;
-    transition: background-color 0.3s ease;
+    /* Add a hover effect */
+    hover {
+        background-color: #094074 !important; 
+        color: #fefdff !important;
+    }
+    animation: shake 1s infinite alternate;
 }
 
-/* Style other buttons */
+/* Style milestone buttons */
 .btn-primary.d-block {
     background-color: #fe9000 !important;
     color: #094074 !important;
     border: none !important;
+    hover {
+        background-color: #094074 !important; 
+        color: #fefdff !important;
+    }
     transition: background-color 0.3s ease;
 }
 
