@@ -45,6 +45,7 @@ section .row > div:nth-child(3) .p-4 {
     background-color: #ffbc42 !important;
     color: #094074 !important;
     border: none !important;
+    transition: background-color 0.3s ease;
 }
 
 /* Style other buttons */
@@ -52,4 +53,5 @@ section .row > div:nth-child(3) .p-4 {
     background-color: #fe9000 !important;
     color: #094074 !important;
     border: none !important;
+    transition: background-color 0.3s ease;
 }
