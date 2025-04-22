@@ -55,3 +55,11 @@ section .row > div:nth-child(3) .p-4 {
     border: none !important;
     transition: background-color 0.3s ease;
 }
+
+/*Add a footer*/
+footer {
+    background-color: #094074 !important; /* Dark blue */
+    color: #fefdff !important; /* White */
+    padding: 20px 0;
+    text-align: center;
+}
