@@ -5,7 +5,13 @@ Dark blue - #094074
 Yellow - #ffbc42
 Orange - #fe9000
  */
-
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&display=swap');
+body {
+    font-family: 'League Spartan', sans-serif !important;
+}
+h1, h2, h3, h4, h5, h6, p, a, li, span, div {
+    font-family: 'League Spartan', sans-serif !important;
+}
  /* Change background colors for the 3 feature boxes */
 section .row > div:nth-child(1) .p-4 {
     background-color: #094074 !important; /* 'Quick & Easy' */
