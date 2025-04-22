@@ -57,7 +57,7 @@ section .row > div:nth-child(3) .p-4:hover {
     background-color: #ffbc42 !important;
     color: #094074 !important;
     border: none !important;
-    animation: tilt-shaking 6s infinite alternate;
+    animation: tilt-shaking 4s infinite alternate;
 }
 
 .text-center.mt-4 .btn.btn-primary:hover {
