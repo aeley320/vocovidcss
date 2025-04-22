@@ -8,12 +8,12 @@ Orange - #fe9000
 
  /* Change background colors for the 3 feature boxes */
 section .row > div:nth-child(1) .p-4 {
-    background-color: #8eb1c7 !important; /* 'Quick & Easy' */
+    background-color: #094074 !important; /* 'Quick & Easy' */
     color: #fefdff !important;
 }
 
 section .row > div:nth-child(2) .p-4 {
-    background-color: #094074 !important; /* 'Accurate' */
+    background-color: #8eb1c7 !important; /* 'Accurate' */
     color: #fefdff !important;
 }
 
