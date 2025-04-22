@@ -57,7 +57,7 @@ section .row > div:nth-child(3) .p-4:hover {
     background-color: #ffbc42 !important;
     color: #094074 !important;
     border: none !important;
-    animation: tilt-shaking 10s infinite alternate;
+    animation: tilt-shaking 6s infinite alternate;
 }
 
 .text-center.mt-4 btn.btn-primary:hover {
@@ -87,9 +87,9 @@ footer {
 
 @keyframes tilt-shaking {
     0% { transform: rotate(0deg); }
-    2% { transform: rotate(5deg); }
-    4% { transform: rotate(0eg); }
-    6% { transform: rotate(-5deg); }
-    8% { transform: rotate(0deg); }
+    1% { transform: rotate(5deg); }
+    2% { transform: rotate(0eg); }
+    3% { transform: rotate(-5deg); }
+    4% { transform: rotate(0deg); }
     100% { transform: translateX(0); }
   }
