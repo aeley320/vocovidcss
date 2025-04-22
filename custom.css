@@ -44,6 +44,14 @@ section .row > div:nth-child(3) .p-4 {
     color: #fefdff !important;
 }
 
+/*Increase size of .p-4 on hover*/
+section .row > div:nth-child(1) .p-4:hover,
+section .row > div:nth-child(2) .p-4:hover, 
+section .row > div:nth-child(3) .p-4:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
 /* Style the "Get Started" button */
 .text-center.mt-4 .btn.btn-primary {
     background-color: #ffbc42 !important;
