@@ -48,7 +48,7 @@ section .row > div:nth-child(3) .p-4 {
 }
 
 /* Style other buttons */
-.btn-primary.d-block.mb-2 {
+.btn-primary.d-block {
     background-color: #fe9000 !important;
     color: #094074 !important;
     border: none !important;
