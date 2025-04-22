@@ -23,6 +23,10 @@ h2 {
     color: #094074 !important; /* Dark blue */
     font-weight: bold !important;
 }
+h2 important {
+    color: #094074 !important; /* Dark blue */
+    font-weight: bold !important;
+}
 
  /* Change background colors for the 3 feature boxes */
 section .row > div:nth-child(1) .p-4 {
