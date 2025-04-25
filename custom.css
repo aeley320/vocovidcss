@@ -8,6 +8,7 @@ Orange - #fe9000
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan&display=swap');
 body {
     font-family: 'League Spartan', sans-serif !important;
+     background-color: #fefdff !important;
 }
 h1, h2, h3, h4, h5, h6, p, a, li, span, div {
     font-family: 'League Spartan', sans-serif !important;
