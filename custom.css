@@ -24,7 +24,13 @@ h2 {
     color: #094074 !important; /* Dark blue */
     font-weight: bold !important;
 }
+
 h2 important {
+    color: #094074 !important; /* Dark blue */
+    font-weight: bold !important;
+}
+
+h2 text-primary {
     color: #094074 !important; /* Dark blue */
     font-weight: bold !important;
 }
